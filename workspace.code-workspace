@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "..\\JoinGruppenarbeit\\Join"
+		},
+		{
+			"path": "..\\El-Pollo-Loco"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "El-Pollo-Loco"
+    }
+}
