@@ -1,7 +1,11 @@
+<app-menu [darkMode]="router.url !== '/'"></app-menu> <!-- zeigt den Darkmode an wenn die URL / ist-->
 
-<div class="slideshow-container">
-<img class="img-slideshow" src="assets/images/{{images[currentImage]}}">
+<div [class.container]="router.url !== '/'">
+<router-outlet></router-outlet>
 </div>
+
+
+
 
 
 <!-- <a href='https://de.freepik.com/psd/mockup'>Mockup PSD erstellt von freepik - de.freepik.com</a> -->
